@@ -255,6 +255,27 @@
       }
     },
     {
+      "id": "landuse-pitch",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071"
+      },
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        [
+          "in",
+          "class",
+          "pitch",
+          "track"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(248, 214, 133, 0.23)"
+      }
+    },
+    {
       "id": "landcover-wood",
       "type": "fill",
       "metadata": {
