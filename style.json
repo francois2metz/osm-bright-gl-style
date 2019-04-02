@@ -235,6 +235,26 @@
       }
     },
     {
+      "id": "landuse-construction",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071"
+      },
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "construction"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(248, 239, 180, 0.23)"
+      }
+    },
+    {
       "id": "landcover-wood",
       "type": "fill",
       "metadata": {
