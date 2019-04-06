@@ -5095,6 +5095,19 @@
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 2
       }
+    },
+    {
+      "id": "natural",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "tree",
+      "minzoom": 18,
+      "maxzoom": 24,
+      "paint": {
+        "circle-stroke-color": "rgba(37, 66, 35, 1)",
+        "circle-color": "rgba(84, 141, 78, 0.52)",
+        "circle-stroke-width": 0
+      }
     }
   ],
   "id": "osm-bright"
