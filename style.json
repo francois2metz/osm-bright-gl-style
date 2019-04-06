@@ -1338,6 +1338,26 @@
       }
     },
     {
+      "id": "landuse-playground",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071"
+      },
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "playground"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(131, 205, 120, 0.23)"
+      }
+    },
+    {
       "id": "aeroway-taxiway-casing",
       "type": "line",
       "metadata": {
