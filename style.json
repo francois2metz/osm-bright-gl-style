@@ -5108,6 +5108,28 @@
         "circle-color": "rgba(84, 141, 78, 0.52)",
         "circle-stroke-width": 0
       }
+    },
+    {
+      "id": "landuse-military",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071"
+      },
+      "source": "openmaptiles",
+      "source-layer": "landuse",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "military"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(246, 163, 166, 1)",
+        "fill-opacity": 0.5,
+        "fill-antialias": true
+      }
     }
   ],
   "id": "osm-bright"
