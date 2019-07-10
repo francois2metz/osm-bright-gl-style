@@ -347,11 +347,6 @@
           "==",
           "class",
           "grass"
-        ],
-        [
-          "==",
-          "subclass",
-          "grass"
         ]
       ],
       "paint": {
