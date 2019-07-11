@@ -347,6 +347,11 @@
           "==",
           "class",
           "grass"
+        ],
+        [
+          "!=",
+          "subclass",
+          "park"
         ]
       ],
       "paint": {
