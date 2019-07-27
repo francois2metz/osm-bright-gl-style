@@ -5184,6 +5184,15 @@
         "fill-opacity": 0.5,
         "fill-antialias": true
       }
+    },
+    {
+      "id": "barrier",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "barrier",
+      "paint": {
+        "line-color": "rgba(202, 198, 193, 1)"
+      }
     }
   ],
   "id": "osm-bright"
