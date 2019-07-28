@@ -360,6 +360,27 @@
       }
     },
     {
+      "id": "landcover-parking",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849388993.3071"
+      },
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "parking"
+        ]
+      ],
+      "paint": {
+        "fill-color": "rgba(255, 255, 255, 1)",
+        "fill-opacity": 1
+      }
+    },
+    {
       "id": "waterway_tunnel",
       "type": "line",
       "source": "openmaptiles",
@@ -4214,7 +4235,8 @@
           "in",
           "class",
           "vending_machine",
-          "information"
+          "information",
+          "parking"
         ],
         [
           "any",
