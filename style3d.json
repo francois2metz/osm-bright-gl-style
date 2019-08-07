@@ -1865,6 +1865,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 16,
       "filter": [
         "all",
         [
@@ -2395,6 +2396,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 16,
       "filter": [
         "all",
         [
